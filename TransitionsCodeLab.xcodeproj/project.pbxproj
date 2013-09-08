@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201569FD178238A10015DD98 /* MMGridToGridItemTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 201569FC178238A10015DD98 /* MMGridToGridItemTransition.m */; };
+		202F3BA417831646002E7A78 /* MMTransitionsNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 201569FA1782383F0015DD98 /* MMTransitionsNavigation.m */; };
+		202F3BA717832A72002E7A78 /* PlaceKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F3BA617832A72002E7A78 /* PlaceKit.m */; };
+		202F3BAA17832EDB002E7A78 /* MMGridItemToGridItemDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F3BA917832EDB002E7A78 /* MMGridItemToGridItemDetailTransition.m */; };
+		20C6852317DB85E900CD2645 /* MMModalTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6852217DB85E900CD2645 /* MMModalTransitioningDelegate.m */; };
+		20C6852617DB86D300CD2645 /* MMModalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6852517DB86D300CD2645 /* MMModalTransition.m */; };
+		20D12315177F1DBC00733E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D12314177F1DBC00733E91 /* Foundation.framework */; };
+		20D12317177F1DBC00733E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D12316177F1DBC00733E91 /* CoreGraphics.framework */; };
+		20D12319177F1DBC00733E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D12318177F1DBC00733E91 /* UIKit.framework */; };
+		20D1231F177F1DBC00733E91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D1231D177F1DBC00733E91 /* InfoPlist.strings */; };
+		20D12321177F1DBC00733E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D12320177F1DBC00733E91 /* main.m */; };
+		20D12325177F1DBC00733E91 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D12324177F1DBC00733E91 /* MMAppDelegate.m */; };
+		20D12327177F1DBD00733E91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D12326177F1DBD00733E91 /* Images.xcassets */; };
+		20D1232E177F1DBD00733E91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D1232D177F1DBD00733E91 /* XCTest.framework */; };
+		20D1232F177F1DBD00733E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D12314177F1DBC00733E91 /* Foundation.framework */; };
+		20D12330177F1DBD00733E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D12318177F1DBC00733E91 /* UIKit.framework */; };
+		20D12338177F1DBD00733E91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D12336177F1DBD00733E91 /* InfoPlist.strings */; };
+		20D1233A177F1DBD00733E91 /* TransitionsCodeLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D12339177F1DBD00733E91 /* TransitionsCodeLabTests.m */; };
+		20D12346177F1EB500733E91 /* MMAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D12345177F1EB500733E91 /* MMAppViewController.m */; };
+		20D1234B177F210900733E91 /* MMGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1234A177F210900733E91 /* MMGridViewController.m */; };
+		20D1234E177F26E900733E91 /* MMGridItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1234D177F26E900733E91 /* MMGridItemViewController.m */; };
+		20D12351177F963700733E91 /* MMGridItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D12350177F963700733E91 /* MMGridItemDetailViewController.m */; };
+		20D12354177F978100733E91 /* MMModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D12353177F978100733E91 /* MMModalViewController.m */; };
+		20D440F61790820700B60009 /* MMCardFlipInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D440F51790820700B60009 /* MMCardFlipInteractiveTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D12331177F1DBD00733E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D12309177F1DBC00733E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D12310177F1DBC00733E91;
+			remoteInfo = TransitionsCodeLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201569F91782383F0015DD98 /* MMTransitionsNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTransitionsNavigation.h; sourceTree = "<group>"; };
+		201569FA1782383F0015DD98 /* MMTransitionsNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTransitionsNavigation.m; sourceTree = "<group>"; };
+		201569FB178238A10015DD98 /* MMGridToGridItemTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridToGridItemTransition.h; sourceTree = "<group>"; };
+		201569FC178238A10015DD98 /* MMGridToGridItemTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridToGridItemTransition.m; sourceTree = "<group>"; };
+		202F3BA517832A72002E7A78 /* PlaceKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceKit.h; sourceTree = "<group>"; };
+		202F3BA617832A72002E7A78 /* PlaceKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceKit.m; sourceTree = "<group>"; };
+		202F3BA817832EDB002E7A78 /* MMGridItemToGridItemDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridItemToGridItemDetailTransition.h; sourceTree = "<group>"; };
+		202F3BA917832EDB002E7A78 /* MMGridItemToGridItemDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridItemToGridItemDetailTransition.m; sourceTree = "<group>"; };
+		20C6852117DB85E900CD2645 /* MMModalTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMModalTransitioningDelegate.h; sourceTree = "<group>"; };
+		20C6852217DB85E900CD2645 /* MMModalTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMModalTransitioningDelegate.m; sourceTree = "<group>"; };
+		20C6852417DB86D300CD2645 /* MMModalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMModalTransition.h; sourceTree = "<group>"; };
+		20C6852517DB86D300CD2645 /* MMModalTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMModalTransition.m; sourceTree = "<group>"; };
+		20D12311177F1DBC00733E91 /* TransitionsCodeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionsCodeLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D12314177F1DBC00733E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20D12316177F1DBC00733E91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20D12318177F1DBC00733E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20D1231C177F1DBC00733E91 /* TransitionsCodeLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionsCodeLab-Info.plist"; sourceTree = "<group>"; };
+		20D1231E177F1DBC00733E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20D12320177F1DBC00733E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D12322177F1DBC00733E91 /* TransitionsCodeLab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitionsCodeLab-Prefix.pch"; sourceTree = "<group>"; };
+		20D12323177F1DBC00733E91 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		20D12324177F1DBC00733E91 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		20D12326177F1DBD00733E91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20D1232C177F1DBD00733E91 /* TransitionsCodeLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionsCodeLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D1232D177F1DBD00733E91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20D12335177F1DBD00733E91 /* TransitionsCodeLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionsCodeLabTests-Info.plist"; sourceTree = "<group>"; };
+		20D12337177F1DBD00733E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20D12339177F1DBD00733E91 /* TransitionsCodeLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionsCodeLabTests.m; sourceTree = "<group>"; };
+		20D12344177F1EB500733E91 /* MMAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAppViewController.h; sourceTree = "<group>"; };
+		20D12345177F1EB500733E91 /* MMAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAppViewController.m; sourceTree = "<group>"; };
+		20D12349177F210900733E91 /* MMGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridViewController.h; sourceTree = "<group>"; };
+		20D1234A177F210900733E91 /* MMGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridViewController.m; sourceTree = "<group>"; };
+		20D1234C177F26E900733E91 /* MMGridItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridItemViewController.h; sourceTree = "<group>"; };
+		20D1234D177F26E900733E91 /* MMGridItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridItemViewController.m; sourceTree = "<group>"; };
+		20D1234F177F963700733E91 /* MMGridItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridItemDetailViewController.h; sourceTree = "<group>"; };
+		20D12350177F963700733E91 /* MMGridItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridItemDetailViewController.m; sourceTree = "<group>"; };
+		20D12352177F978100733E91 /* MMModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMModalViewController.h; sourceTree = "<group>"; };
+		20D12353177F978100733E91 /* MMModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMModalViewController.m; sourceTree = "<group>"; };
+		20D440F41790820700B60009 /* MMCardFlipInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCardFlipInteractiveTransition.h; sourceTree = "<group>"; };
+		20D440F51790820700B60009 /* MMCardFlipInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCardFlipInteractiveTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D1230E177F1DBC00733E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D12317177F1DBC00733E91 /* CoreGraphics.framework in Frameworks */,
+				20D12319177F1DBC00733E91 /* UIKit.framework in Frameworks */,
+				20D12315177F1DBC00733E91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D12329177F1DBD00733E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D1232E177F1DBD00733E91 /* XCTest.framework in Frameworks */,
+				20D12330177F1DBD00733E91 /* UIKit.framework in Frameworks */,
+				20D1232F177F1DBD00733E91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D12308177F1DBC00733E91 = {
+			isa = PBXGroup;
+			children = (
+				20D1231A177F1DBC00733E91 /* TransitionsCodeLab */,
+				20D12333177F1DBD00733E91 /* TransitionsCodeLabTests */,
+				20D12313177F1DBC00733E91 /* Frameworks */,
+				20D12312177F1DBC00733E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20D12312177F1DBC00733E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D12311177F1DBC00733E91 /* TransitionsCodeLab.app */,
+				20D1232C177F1DBD00733E91 /* TransitionsCodeLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D12313177F1DBC00733E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D12314177F1DBC00733E91 /* Foundation.framework */,
+				20D12316177F1DBC00733E91 /* CoreGraphics.framework */,
+				20D12318177F1DBC00733E91 /* UIKit.framework */,
+				20D1232D177F1DBD00733E91 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20D1231A177F1DBC00733E91 /* TransitionsCodeLab */ = {
+			isa = PBXGroup;
+			children = (
+				202F3BA517832A72002E7A78 /* PlaceKit.h */,
+				202F3BA617832A72002E7A78 /* PlaceKit.m */,
+				20D12343177F1E9500733E91 /* UI */,
+				20D12323177F1DBC00733E91 /* MMAppDelegate.h */,
+				20D12324177F1DBC00733E91 /* MMAppDelegate.m */,
+				20D12326177F1DBD00733E91 /* Images.xcassets */,
+				20D1231B177F1DBC00733E91 /* Supporting Files */,
+			);
+			path = TransitionsCodeLab;
+			sourceTree = "<group>";
+		};
+		20D1231B177F1DBC00733E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D1231C177F1DBC00733E91 /* TransitionsCodeLab-Info.plist */,
+				20D1231D177F1DBC00733E91 /* InfoPlist.strings */,
+				20D12320177F1DBC00733E91 /* main.m */,
+				20D12322177F1DBC00733E91 /* TransitionsCodeLab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20D12333177F1DBD00733E91 /* TransitionsCodeLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				20D12339177F1DBD00733E91 /* TransitionsCodeLabTests.m */,
+				20D12334177F1DBD00733E91 /* Supporting Files */,
+			);
+			path = TransitionsCodeLabTests;
+			sourceTree = "<group>";
+		};
+		20D12334177F1DBD00733E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D12335177F1DBD00733E91 /* TransitionsCodeLabTests-Info.plist */,
+				20D12336177F1DBD00733E91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20D12343177F1E9500733E91 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				20D12347177F20A000733E91 /* Screens */,
+				20D12344177F1EB500733E91 /* MMAppViewController.h */,
+				20D12345177F1EB500733E91 /* MMAppViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		20D12347177F20A000733E91 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				20D12348177F20E000733E91 /* Nav Stack Transitions */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		20D12348177F20E000733E91 /* Nav Stack Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				20D12349177F210900733E91 /* MMGridViewController.h */,
+				20D1234A177F210900733E91 /* MMGridViewController.m */,
+				20D1234C177F26E900733E91 /* MMGridItemViewController.h */,
+				20D1234D177F26E900733E91 /* MMGridItemViewController.m */,
+				20D1234F177F963700733E91 /* MMGridItemDetailViewController.h */,
+				20D12350177F963700733E91 /* MMGridItemDetailViewController.m */,
+				20D12352177F978100733E91 /* MMModalViewController.h */,
+				20D12353177F978100733E91 /* MMModalViewController.m */,
+				201569F91782383F0015DD98 /* MMTransitionsNavigation.h */,
+				201569FA1782383F0015DD98 /* MMTransitionsNavigation.m */,
+				201569FB178238A10015DD98 /* MMGridToGridItemTransition.h */,
+				201569FC178238A10015DD98 /* MMGridToGridItemTransition.m */,
+				202F3BA817832EDB002E7A78 /* MMGridItemToGridItemDetailTransition.h */,
+				202F3BA917832EDB002E7A78 /* MMGridItemToGridItemDetailTransition.m */,
+				20D440F41790820700B60009 /* MMCardFlipInteractiveTransition.h */,
+				20D440F51790820700B60009 /* MMCardFlipInteractiveTransition.m */,
+				20C6852117DB85E900CD2645 /* MMModalTransitioningDelegate.h */,
+				20C6852217DB85E900CD2645 /* MMModalTransitioningDelegate.m */,
+				20C6852417DB86D300CD2645 /* MMModalTransition.h */,
+				20C6852517DB86D300CD2645 /* MMModalTransition.m */,
+			);
+			path = "Nav Stack Transitions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D12310177F1DBC00733E91 /* TransitionsCodeLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D1233D177F1DBD00733E91 /* Build configuration list for PBXNativeTarget "TransitionsCodeLab" */;
+			buildPhases = (
+				20D1230D177F1DBC00733E91 /* Sources */,
+				20D1230E177F1DBC00733E91 /* Frameworks */,
+				20D1230F177F1DBC00733E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionsCodeLab;
+			productName = TransitionsCodeLab;
+			productReference = 20D12311177F1DBC00733E91 /* TransitionsCodeLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20D1232B177F1DBD00733E91 /* TransitionsCodeLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D12340177F1DBD00733E91 /* Build configuration list for PBXNativeTarget "TransitionsCodeLabTests" */;
+			buildPhases = (
+				20D12328177F1DBD00733E91 /* Sources */,
+				20D12329177F1DBD00733E91 /* Frameworks */,
+				20D1232A177F1DBD00733E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D12332177F1DBD00733E91 /* PBXTargetDependency */,
+			);
+			name = TransitionsCodeLabTests;
+			productName = TransitionsCodeLabTests;
+			productReference = 20D1232C177F1DBD00733E91 /* TransitionsCodeLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D12309177F1DBC00733E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MutualMobile;
+				TargetAttributes = {
+					20D1232B177F1DBD00733E91 = {
+						TestTargetID = 20D12310177F1DBC00733E91;
+					};
+				};
+			};
+			buildConfigurationList = 20D1230C177F1DBC00733E91 /* Build configuration list for PBXProject "TransitionsCodeLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20D12308177F1DBC00733E91;
+			productRefGroup = 20D12312177F1DBC00733E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D12310177F1DBC00733E91 /* TransitionsCodeLab */,
+				20D1232B177F1DBD00733E91 /* TransitionsCodeLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D1230F177F1DBC00733E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D1231F177F1DBC00733E91 /* InfoPlist.strings in Resources */,
+				20D12327177F1DBD00733E91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D1232A177F1DBD00733E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D12338177F1DBD00733E91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D1230D177F1DBC00733E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D12351177F963700733E91 /* MMGridItemDetailViewController.m in Sources */,
+				20D1234B177F210900733E91 /* MMGridViewController.m in Sources */,
+				201569FD178238A10015DD98 /* MMGridToGridItemTransition.m in Sources */,
+				20D12325177F1DBC00733E91 /* MMAppDelegate.m in Sources */,
+				20C6852617DB86D300CD2645 /* MMModalTransition.m in Sources */,
+				20D440F61790820700B60009 /* MMCardFlipInteractiveTransition.m in Sources */,
+				202F3BA717832A72002E7A78 /* PlaceKit.m in Sources */,
+				20D12321177F1DBC00733E91 /* main.m in Sources */,
+				20D12346177F1EB500733E91 /* MMAppViewController.m in Sources */,
+				202F3BA417831646002E7A78 /* MMTransitionsNavigation.m in Sources */,
+				20D12354177F978100733E91 /* MMModalViewController.m in Sources */,
+				202F3BAA17832EDB002E7A78 /* MMGridItemToGridItemDetailTransition.m in Sources */,
+				20D1234E177F26E900733E91 /* MMGridItemViewController.m in Sources */,
+				20C6852317DB85E900CD2645 /* MMModalTransitioningDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D12328177F1DBD00733E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D1233A177F1DBD00733E91 /* TransitionsCodeLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20D12332177F1DBD00733E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20D12310177F1DBC00733E91 /* TransitionsCodeLab */;
+			targetProxy = 20D12331177F1DBD00733E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20D1231D177F1DBC00733E91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D1231E177F1DBC00733E91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20D12336177F1DBD00733E91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D12337177F1DBD00733E91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D1233B177F1DBD00733E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20D1233C177F1DBD00733E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D1233E177F1DBD00733E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionsCodeLab/TransitionsCodeLab-Prefix.pch";
+				INFOPLIST_FILE = "TransitionsCodeLab/TransitionsCodeLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20D1233F177F1DBD00733E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionsCodeLab/TransitionsCodeLab-Prefix.pch";
+				INFOPLIST_FILE = "TransitionsCodeLab/TransitionsCodeLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20D12341177F1DBD00733E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransitionsCodeLab.app/TransitionsCodeLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionsCodeLab/TransitionsCodeLab-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TransitionsCodeLabTests/TransitionsCodeLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		20D12342177F1DBD00733E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransitionsCodeLab.app/TransitionsCodeLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionsCodeLab/TransitionsCodeLab-Prefix.pch";
+				INFOPLIST_FILE = "TransitionsCodeLabTests/TransitionsCodeLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D1230C177F1DBC00733E91 /* Build configuration list for PBXProject "TransitionsCodeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D1233B177F1DBD00733E91 /* Debug */,
+				20D1233C177F1DBD00733E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D1233D177F1DBD00733E91 /* Build configuration list for PBXNativeTarget "TransitionsCodeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D1233E177F1DBD00733E91 /* Debug */,
+				20D1233F177F1DBD00733E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D12340177F1DBD00733E91 /* Build configuration list for PBXNativeTarget "TransitionsCodeLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D12341177F1DBD00733E91 /* Debug */,
+				20D12342177F1DBD00733E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D12309177F1DBC00733E91 /* Project object */;
+}
